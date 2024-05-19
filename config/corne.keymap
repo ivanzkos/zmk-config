@@ -39,7 +39,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp LEFT_BRACKET      &kp N7        &kp N8        &kp N9        &kp RIGHT_BRACKET        &trans  &trans  &tog 5  &trans  &trans  &trans
+&trans  &kp LEFT_BRACKET      &kp N7        &kp N8        &kp N9        &kp RIGHT_BRACKET        &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LEFT_PARENTHESIS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp RIGHT_PARENTHESIS    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LEFT_BRACE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACE          &trans  &trans  &trans  &trans  &trans  &trans
                                             &trans        &kp N0        &trans                   &trans  &trans  &trans
@@ -76,15 +76,6 @@
 &trans  &trans  &bt BT_SEL 4  &trans        &trans        &bt BT_CLR    &kp PRINTSCREEN    &kp F4            &kp F5      &kp F6  &kp F11  &trans
 &trans  &trans  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans        &kp C_VOLUME_DOWN  &kp F1            &kp F2      &kp F3  &kp F10  &trans
                               &trans        &bt BT_SEL 0  &trans        &kp K_PREVIOUS     &kp K_PLAY_PAUSE  &kp K_NEXT
-            >;
-        };
-
-        league-layer {
-            bindings = <
-&kp LEFT_ALT    &kp F1        &kp F2        &kp F3        &kp F4        &kp GRAVE    &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL       &kp Q         &kp W         &kp E         &kp R         &kp T        &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp B        &trans  &trans  &trans  &trans  &trans  &trans
-                                            &kp D         &kp F         &kp SPACE    &trans  &trans  &trans
             >;
         };
     };
