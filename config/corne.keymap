@@ -10,7 +10,7 @@
 
 &mt { flavor = "tap-preferred"; };
 
-&lt { flavor = "hold-preferred"; };
+&lt { flavor = "balanced"; };
 
 / {
     keymap {
