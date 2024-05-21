@@ -63,7 +63,7 @@
 
         movement_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans         &caps_word   &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans         &caps_word   &tog 5     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &trans
                         &trans  &trans  &trans    &trans    &trans         &trans
@@ -76,6 +76,33 @@
 &trans  &trans  &bt BT_SEL 4  &trans        &trans        &bt BT_CLR    &kp PRINTSCREEN    &kp F4            &kp F5      &kp F6  &kp F11  &trans
 &trans  &trans  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans        &kp C_VOLUME_DOWN  &kp F1            &kp F2      &kp F3  &kp F10  &trans
                               &trans        &bt BT_SEL 0  &trans        &kp K_PREVIOUS     &kp K_PLAY_PAUSE  &kp K_NEXT
+            >;
+        };
+
+        game_layer {
+            bindings = <
+&kp TAB         &kp Q  &kp E  &kp W  &kp R      &kp T    &trans  &trans  &trans  &tog 5  &trans  &trans
+&kp LCTRL       &kp A  &kp S  &kp D  &kp F      &kp G    &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V      &kp B    &trans  &trans  &trans  &trans  &trans  &trans
+                              &mo 6  &kp SPACE  &mo 7    &trans  &trans  &trans
+            >;
+        };
+
+        game_numbers {
+            bindings = <
+&kp TAB         &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL       &kp N6  &kp N7  &kp N8  &kp N9  &kp N0    &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &none   &none   &none   &none   &none     &trans  &trans  &trans  &trans  &trans  &trans
+                                &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        game_function {
+            bindings = <
+&kp TAB         &kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL       &kp F6   &kp F7   &kp F8  &kp F9  &kp F10    &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp F11  &kp F12  &none   &none   &none      &trans  &trans  &trans  &trans  &trans  &trans
+                                  &trans  &trans  &trans     &trans  &trans  &trans
             >;
         };
     };
